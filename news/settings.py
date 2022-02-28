@@ -40,9 +40,12 @@ INSTALLED_APPS = [
 
     'accounts',
     'pages',
+    'articles',
 
     'crispy_forms',
 ]
+
+TIME_ZONE = 'Europe/Sofia'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
